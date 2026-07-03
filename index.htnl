@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matcha Bistro | Coffee, Pizza & Burgers</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="stylesheet" href="https://googleapis.com">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cloudflare.com">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">🍵 Matcha Bistro</h2>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services & Menu</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HOME SECTION -->
+    <section class="hero-section" id="home">
+      <div class="section-container">
+        <div class="hero-details">
+          <span class="hero-subtitle">Premium Green Tea Brews & Gourmet Eats</span>
+          <h1 class="title">Matcha Coffee, Woodfired Pizza & Burgers</h1>
+          <p class="description">Welcome to the ultimate fusion cafe. We serve stone-baked artisanal pizzas, juicy gourmet smash burgers, and authentic Japanese stone-ground matcha espresso lattes.</p>
+          <div class="buttons">
+            <a href="#services" class="button order-now">Explore Our Menu</a>
+            <a href="#contact" class="button contact-us">Book Table</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <!-- Premium Iced Matcha Drink Visual -->
+          <img src="matchaa.jpg" alt="Premium Iced Matcha Drink" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT US SECTION -->
+    <section class="about-section" id="about">
+      <div class="section-container">
+        <div class="about-image-wrapper">
+          <!-- Gourmet Multi-Layer Smash Burger -->
+          <img src="iced americano.jpg" alt="Gourmet Cafe " 
+          class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title-left">Our Fusion Story</h2>
+          <p class="text">At Matcha Bistro, we believe comfort food shouldn't compromise 
+            on quality. Our barista bar features premium, ceremonial-grade organic 
+            Japanese Uji matcha mixed with bold dark espresso. Alongside our drinks, our
+             chefs knead fresh sourdough daily to launch authentic blistering woodfired 
+             pizzas and stack prime Angus beef burgers.</p>
+          <div class="about-features">
+            <div class="feature"><i class="fas fa-leaf"></i><p>Ceremonial Matcha</p></div>
+            <div class="feature"><i class="fas fa-fire"></i><p>100% Sourdough Pizza</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SERVICES & MENU SECTION -->
+    <section class="services-section" id="services">
+      <h2 class="section-title">Our Premium Services & Menu</h2>
+      <p class="section-subtitle-center">Handcrafted on-demand with fine ingredients</p>
+      
+      <div class="section-container services-grid">
+        
+        <!-- Service Card 1: Matcha & Coffee Brews -->
+        <div class="menu-card">
+          <div class="card-image-box">
+            <img src="iced matcha.jpg" alt="Iced Matcha Espresso Latte" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3>Matcha Coffee Bar</h3>
+            <p>Our trademark layered Iced Matcha Espresso Lattes, Dirty Matcha, and classic velvety Hot Green Tea Foam drinks.</p>
+            <span class="price-tag">Starting at $4.50</span>
+          </div>
+        </div>
+
+        <!-- Service Card 2: Pizza Service -->
+        <div class="menu-card">
+          <div class="card-image-box">
+            <img src="pizza.jpg" alt="Pepperoni Woodfired Pizza" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3>Woodfired Pizza Kitchen</h3>
+            <p>Crispy crust Italian-style pizzas baked over applewood flames, finished with fresh buffalo mozzarella and spicy pepperoni.</p>
+            <span class="price-tag">Starting at $12.99</span>
+          </div>
+        </div>
+
+        <!-- Service Card 3: Burger Hub -->
+        <div class="menu-card">
+          <div class="card-image-box">
+            <img src="hamburger.jpg" alt="Gourmet Bacon Cheeseburger" class="card-img">
+          </div>
+          <div class="card-content">
+            <h3>Gourmet Burger Hub</h3>
+            <p>Double-patty smash beef burgers, melted cheddar cheese layers, and buttermilk crispy chicken burgers with house sauce.</p>
+            <span class="price-tag">Starting at $10.99</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title white-text">Place an Order / Reserve a Table</h2>
+      <div class="section-container contact-container">
+        
+        <div class="contact-info-box">
+          <h3>Matcha Bistro & Cafe</h3>
+          <p><i class="fas fa-phone-alt"></i> 9800000000</p>
+          <p><i class="fas fa-envelope"></i> orders@matchabistro.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> lalitpur nepal </p>
+          <p><i class="fas fa-clock"></i> Open Daily: 8:00 AM - 10:00 PM</p>
+          <!-- Beautiful Matcha Art Cup Picture inside sidebar info -->
+          <img src="latte art.jpg" alt="Matcha Latte Art" class="contact-info-img">
+        </div>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your Full Name" class="form-input" required>
+          <input type="email" placeholder="Your Email Address" class="form-input" required>
+          <select class="form-input" required>
+            <option value="" disabled selected>Select Service Option</option>
+            <option value="matcha">Order Matcha Coffee Box</option>
+            <option value="pizza">Order Woodfired Pizza</option>
+            <option value="burger">Order Gourmet Burger</option>
+            <option value="table">Book a Table Reservation</option>
+          </select>
+          <textarea placeholder="List your item quantities, optional toppings, or special instructions..." class="form-input text-area" required></textarea>
+          <button type="submit" class="submit-button">Send Order Request</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+     <div class="social-links">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link JavaScript Toggle -->
+  <script src="script.js"></script>
+</body>
+</html>
